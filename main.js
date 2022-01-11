@@ -1,12 +1,11 @@
-//frr raenfv fanevfnm history,jbh,jfbhjbfrhejhaj ghb gmbhrhamhbfjaehr,nha,ehng,jehna,fhearjk,gjrea,ghg,aer,hbfraerkj,haefkjhreaj,h,khfejkh
 function preload(){
     img = loadImage('dog_cat.jpg');
 }
 
-//fwebfruhygfsdkuhweuikugfahedilyhufewiulkureiuywrnehbwifyurge4rhfyiufehyuirlhyaiulgyliurehyafriulyhrfwkuyhwefkyhwakyhdeywkayhywfueadyiuwfydkuy
+
 function setup(){
-canvas = createCanvas(888, 888);
-canvas.right();
+canvas = createCanvas(640, 420);
+canvas.center();
 }
 
 function draw(){
@@ -14,8 +13,6 @@ function draw(){
     fill("#FF0000");
     text("doggy", 45, 75);
     nofill();
-    stroke("#FF0000")
-    ;
-    //hjhsfhghjegshjrjuhw4wiuefhiweuhiuhfewhfjawehhjdfweaUghdyfeahfweahfweyhedyhfehfyfhjfhbjdfk,hhdeuwmhdgwyugwakgwuagdyyjegsgsyafgykfegyug
-    rect(30,60,450,350);
+    stroke("#FF0000");
+     rect(30,60,450,350);
 }
