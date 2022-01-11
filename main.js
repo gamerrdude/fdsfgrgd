@@ -2,7 +2,6 @@ function preload(){
     img = loadImage('dog_cat.jpg');
 }
 
-
 function setup(){
 canvas = createCanvas(640, 420);
 canvas.center();
@@ -14,5 +13,5 @@ function draw(){
     text("doggy", 45, 75);
     nofill();
     stroke("#FF0000");
-     rect(30,60,450,350);
+    rect(30, 60, 450, 350);
 }
