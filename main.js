@@ -1,6 +1,6 @@
 function preload(){
     img = loadImage('dog_cat.jpg');
-    statu = "";
+    status = "";
 }
 
 function setup(){
@@ -20,14 +20,14 @@ function draw(){
 
     fill("#FF0000");
     text("CAT", 320, 120);
-    nofill()
+    noFill()
     stroke("#FF0000")
     rect(300, 90, 270, 320);
 }
 
 function modelLoaded(){
     console.log("modelLoaded");
-    statu = true;
+    statua = true;
     objectdetector.detect(img, gotResult);
 
 }
