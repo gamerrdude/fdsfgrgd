@@ -27,7 +27,7 @@ function draw(){
 
 function modelLoaded(){
     console.log("modelLoaded");
-    statua = true;
+    status = true;
     objectdetector.detect(img, gotResult);
 
 }
