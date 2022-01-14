@@ -1,6 +1,6 @@
 function preload(){
     img = loadImage('dog_cat.jpg');
-    status = "";
+    statu = "";
 }
 
 function setup(){
@@ -27,7 +27,7 @@ function draw(){
 
 function modelLoaded(){
     console.log("modelLoaded");
-    status = true;
+    statu = true;
     objectdetector.detect(img, gotResult);
 
 }
