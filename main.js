@@ -3,11 +3,11 @@ function preload(){
     status = "";
 }
 
-function setup() {
-  canvas = createCanvas(640, 420);
-  canvas.center();
-  objectDetector = ml5.objectDetector('cocossd', modelLoaded);
-  document.getElementById("status").innerHTML = "Status : Detecting Objects";
+function setup(){
+canvas = createCanvas(640, 420);
+canvas.center();
+objectdetector = ml5.objectdetector('cocossed', modelLoaded);
+document.getElementById("status").innerHTML = "Status: detecting object";
 }
 
 function draw(){
@@ -26,17 +26,16 @@ function draw(){
 }
 
 function modelLoaded(){
-function modelLoaded() {
-  console.log("Model Loaded!")
-  status = true;
-  objectDetector.detect(img, gotResult);
+    console.log("modelLoaded");
+    status = true;
+    objectdetector.detect(img, gotResult);
+
 }
-function gotResult(error, results) {
-  if (error) {
+
+function gotResult(error, Results){
+if(error){
     console.log(error);
-  }
-  console.log(results);
-  objects = results;
+
 }
 console.log(results);
 }
